@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+    <title></title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        outline: none;
+        text-decoration: none;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        background: white;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+    }
+    h4{
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 20px;
+    }
+    input,textarea{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 15px;
+    }
+    #name{
+        padding: 15px;
+        height: 44px;
+    }
+    #email{
+        padding: 15px;
+        height: 44px;
+    }
+    #comment{
+        width: 100%;
+        height: 160px;
+        resize: none;
+        padding: 15px;
+    }
+    button{
+        width: 180px;
+        padding: 14px;
+        margin: 0 auto;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        background: #8845f4;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="contact-container">
+        <h4>Contact Us</h4>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <textarea name="sms" id="comment" placeholder="Enter your opnion"></textarea>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+
+</html>
