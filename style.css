@@ -459,23 +459,23 @@ body {
 
 @keyframes slider {
     20% {
-        background-image: url(img/cover-pic-02.jpg);
+        background-image: url(cover-pic-02.jpg);
     }
 
     40% {
-        background-image: url(img/cover-pic-03.jpg);
+        background-image: url(cover-pic-03.jpg);
     }
 
     60% {
-        background-image: url(img/cover-pic-04.jpg);
+        background-image: url(cover-pic-04.jpg);
     }
 
     80% {
-        background-image: url(img/cover-pic-05.jpg);
+        background-image: url(cover-pic-05.jpg);
     }
 
     100% {
-        background-image: url(img/cover-pic-01.jpg);
+        background-image: url(cover-pic-01.jpg);
     }
 }
 
